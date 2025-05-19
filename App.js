@@ -1,8 +1,8 @@
 const express = require("express");
 const connectDB = require("./config/config");
-const clientRoutes = require("./Routes/clientRoutes");
-const customerRoutes = require("./Routes/customerRoutes");
-const merchantRoutes = require("./Routes/merchantRoutes");
+const clientRoutes = require("./routes/clientRoutes");
+const customerRoutes = require("./routes/customerRoutes");
+const merchantRoutes = require("./routes/merchantRoutes");
 const cors = require("cors");
 const ensureTTLIndex = require("./utils/ensureTTLIndex");
 
