@@ -11,7 +11,7 @@ const ensureTTLIndex = require("./utils/ensureTTLIndex");
 
     // ✅ إعدادات عامة
     const BASE_API_URL2 = "http://localhost:3000"; 
-    app.use(cors({ origin: BASE_API_URL2, credentials: true }));
+    app.use(cors());
     app.use(express.json());
 
     // ✅ اتصالات بقاعدة البيانات
