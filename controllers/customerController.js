@@ -1,5 +1,5 @@
 const Customer = require("../models/customerModel");
-const { validateCustomerPhoneNumber, isValidBoolean } = require("../utils/paymentUtils");
+const { validateCustomerPhoneNumber, isValidBoolean, isValidNumber } = require("../utils/paymentUtils");
 const { encryptBalance } = require("../utils/encryption");
 
 const addCustomer = async (req, res) => {

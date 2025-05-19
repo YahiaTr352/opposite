@@ -1,5 +1,5 @@
 const Merchant = require("../models/merchantModel");
-const { validateMerchantPhoneNumber } = require("../utils/paymentUtils");
+const { validateMerchantPhoneNumber, isValidNumber, isValidBoolean } = require("../utils/paymentUtils");
 const { encryptBalance } = require("../utils/encryption");
 
 const addMerchant = async (req, res) => {
